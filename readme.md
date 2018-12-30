@@ -7,7 +7,6 @@ sensor:
 to configuration..yaml
 
 add 
-´´´
 resources:
   - type: module
     url: /local/hsl-card.js
@@ -16,7 +15,6 @@ resources:
 
  - entity: sensor.hsl_sensor
    type: 'custom:hsl-card'
-´´´
 
 to ui-lovelace.yaml
 
