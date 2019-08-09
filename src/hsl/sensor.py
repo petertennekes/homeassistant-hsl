@@ -101,7 +101,7 @@ class Stop:
                         }
                         directionId
                       }
-                
+
                     }
                     patterns {
                       code
@@ -137,5 +137,4 @@ class Stop:
         delay = stoptime.get("departureDelay")
         route = stoptime.get("trip").get("routeShortName")
         if headsign is not None:
-            return {'sign': headsign, 'departure': departuretime, 'delay': delay, 'route': route}
-
+            return {'sign': headsign, 'departure': departuretime, 'delay': delay, 'route': route, 'timestamp': departuretime_timestamp}
