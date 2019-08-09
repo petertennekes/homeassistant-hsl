@@ -1,0 +1,8 @@
+{
+  "domain": "hsl",
+  "name": "HSL",
+  "documentation": "https://www.home-assistant.io/components/hue",
+  "dependencies": [],
+  "codeowners": ["@bpptennekes"],
+  "requirements": ["graphql_client==0.3.0"]
+}

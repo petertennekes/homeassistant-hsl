@@ -1,9 +1,11 @@
-copy src/sensor/hsl.py to config/custom_components/sensor/
+copy src/hsl/* to config/custom_components/hsl/*
 copy src/frontend/* to config/www/
 
 add
 sensor:
-  platform: hsl
+  - platform: hsl
+    stop_id: HSL:294985
+
 to configuration..yaml
 
 add 

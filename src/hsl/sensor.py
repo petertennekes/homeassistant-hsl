@@ -7,8 +7,6 @@ from datetime import timedelta, datetime
 from homeassistant.util import Throttle
 import logging
 
-
-REQUIREMENTS = ['graphql_client==0.3.0']
 logger = logging.getLogger(__name__)
 
 
